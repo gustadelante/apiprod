@@ -8,7 +8,7 @@ import usersRoutes from './routes/user.routes'
 
 const app = express()
 createRoles();
-//con app set coloco un nombre y un valor a una variable.
+//con app set coloco un nombre y un valor a una variable..
 app.set('pkg', pkg);
 
 app.use(express.json());
